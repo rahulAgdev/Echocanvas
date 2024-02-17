@@ -1,10 +1,9 @@
 import { Room } from "./Room";
-import { CollaborativeApp } from "./CollaborativeApp";
 
 export default function Page() {
   return (
-    <Room>
-      <CollaborativeApp />
-    </Room>
+    <div className="h-[100vh] text-center items-center w-full flex justify-center">
+      <h1 className="text-2xl text-white">Liveblocks figma clone</h1>
+    </div>
   );
 }
