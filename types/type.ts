@@ -25,7 +25,7 @@ export type CursorState =
       reaction: string;
       isPressed: boolean;
     };
-
+  
 export type Reaction = {
   value: string;
   timestamp: number;
